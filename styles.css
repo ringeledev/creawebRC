@@ -1,17 +1,18 @@
 * {
     list-style: none;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body    {
     height: 145vh;
-    position: relative;
     background-color: rgb(250, 247, 242);
 }
 
 header {
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -67,9 +68,25 @@ label {
 }
 .btn:hover {
     background-color: rgb(15, 16, 19);
-
-
 }
+
+.itemCarrusel{
+        border: 1px solid black;
+        height: 200px;
+    }
+
+.tarjetaCarrusel{
+        background-color: aquamarine;
+        height: 100%;
+    }
+
+.flechasCarrusel{
+    background-color: rgb(112, 112, 227);
+    height: 100%;
+    }
+
+
+
 @media(max-width:991px){
     .menu {
         padding: 30px;
@@ -102,6 +119,7 @@ label {
     #menu:checked ~ .menu{
         display: initial;
     }
+
 
 
     
