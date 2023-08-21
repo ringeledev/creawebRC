@@ -7,6 +7,8 @@ body    {
     height: 145vh;
     position: relative;
     background-color: rgb(250, 247, 242);
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -40,7 +42,7 @@ header {
 }
 
 .item:hover {
-    color:burlywood
+    color:#7c5024
 
 }
 
@@ -103,6 +105,17 @@ label {
         display: initial;
     }
 
+}
 
-    
+footer {
+    background-color: #5d2d05;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.github-carlos {
+    color:white
 }
